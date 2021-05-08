@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.PaymentDetailsFragment">
+
+    <ImageView
+        android:id="@+id/paymentLogoImageView"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:src="@drawable/bill_logo">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/paymentNameTv"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:text="Elektrik">
+    </TextView>
+
+    <TextView
+        android:id="@+id/paymentCostTv"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="5 £" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="10dp"
+        android:id="@+id/deleteButton"
+        android:text="@string/sil"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/delete_border">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+</LinearLayout>

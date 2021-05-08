@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Harcama Takip</string>
+    <string name="gec">Geç</string>
+    <string name="harcamaniz">Harcamanız</string>
+    <string name="tl">₺</string>
+    <string name="sterlİn">£</string>
+    <string name="euro">€</string>
+    <string name="dolar">$</string>
+    <string name="ekle">EKLE</string>
+    <string name="cost">%1$d %2$s</string>
+    <string name="user">%1$s %2$s</string>
+    <string name="total">%1$d %2$s</string>
+    <string name="aciklama">Açıklama</string>
+    <string name="harcama_turu">Harcama Türü Seçiniz</string>
+    <string name="kira">Kira</string>
+    <string name="fatura">Fatura</string>
+    <string name="diger">Diğer</string>
+    <string name="harcama_miktar">Harcama Miktarı</string>
+    <string name="para_birimi_se_iniz">Para Birimi Seçiniz</string>
+    <string name="isim">İsminizi Giriniz</string>
+    <string name="erkek">Erkek</string>
+    <string name="kadin">Kadın</string>
+    <string name="belirtmek_stemiyorum">Belirtmek İstemiyorum</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="sil">Sil</string>
+    <string name="silindi">Harcama Silindi</string>
+    <string name="hata">Hata!</string>
+    <string name="tamam">Tamam</string>
+    <string name="bos_birakma">Bu Alan Boş Bırakılamaz</string>
+    <string name="bos_birakma2">Lütfen Tüm Alanları Doldurun!</string>
+    <string name="kur_hata">Kayıtlı kur bilgisi bulunamadı</string>
+</resources>
